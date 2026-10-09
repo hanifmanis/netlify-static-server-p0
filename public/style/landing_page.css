@@ -1,0 +1,44 @@
+
+/* Pengaturan Warna */
+.bg-custom-body {
+    background: #5D9948;
+}
+
+.bg-custom-dark {
+    background: #302E2B;
+}
+
+.bg-custom-beige{
+    background: #EAEDD1;
+}
+
+.bg-custom-body-image{
+    background-image: url(image3.png);
+}
+/* .bg-catur-opacity{
+    background-image: url(image2.png);
+    opacity: 20%;
+} */
+
+/* Pengaturan Font */
+
+p1{
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+}
+
+p2{
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p3{
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p4{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}

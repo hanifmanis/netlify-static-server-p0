@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Garuda Chess Online Course</title>
+  <link rel="stylesheet" href="../style/landing_page.css"> 
+  <!-- ini harus diedit -->
+</head>
+<body>
+    <body class="bg-custom-body bg-custom-body-image">
+    <div class="row bg-custom-dark p-3">
+        <div class="col-md-4 d-flex">
+            <img src="../asset/logo_catur.png" width="30" height="30" class="me-2 ms-2">
+            <a href="landing_page.html"><strong class="text-white">Garuda Chess Academy</strong></a>
+        </div>
+        <div class="text-white col-md-8 text-end">
+            <div class="d-none d-md-block d-lg-block d-xl-block">
+                <button id="logoutBtn" type="button" class="btn btn-primary bg-custom-beige text-dark"><a href="login.html">Logout</a></button>
+            </div>
+            <div class="text-white text-end d-xs-block d-sm-block d-md-none col-md-4">
+                <div class="dropdown">
+                    <button type="button" class="btn btn-primary dropdown-toggle bg-custom-beige text-dark" data-bs-toggle="dropdown">
+                        Menu
+                    </button>
+                    <ul class="dropdown-menu">
+                        <a href="products.html" class="dropdown-item text-decoration-none"><strong><p1>Pilihan Program</p1></strong></a>
+                        <a href="choose_class.html" class="dropdown-item text-decoration-none"><strong><p1>Caritau Program Kamu</p1></strong></a>
+                        <a href="your_class.html" class="dropdown-item text-decoration-none"><strong><p1>Kelas Kamu</p1></strong></a>
+                        <a href="galery.html" class="dropdown-item text-decoration-none"><strong><p1>Galeri</p1></strong></a>
+                        <a href="contact_us.html" class="dropdown-item text-decoration-none"><strong><p1>Hubungi Kami</p1></strong></a>
+                        <a href="login.html" class="dropdown-item text-decoration-none"><strong><p1>Login</p1></strong></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+    <div class="col-md-2 d-none d-lg-block vh-200 bg-custom-beige p-2" style="max-width: 250px;">
+        <ul>
+            <a href="products.html" class="text-dark"><strong>Pilihan Program</strong></a> <br>
+            <a href="choose_class.html" class="text-dark"><strong>Caritau Program Kamu</strong></a> <br>
+            <a href="your_class.html" class="text-dark"><strong>Kelas Kamu</strong></a> <br>
+            <a href="portofolio.html" class="text-dark"><strong>Galeri</strong></a> <br>
+            <a href="contact_us.html" class="text-dark"><strong>Hubungi Kami</strong></a> <br>
+
+        </ul>
+    </div>
+    
+    <div class="container bg-custom-beige rounded mb-3 col-md-10 mt-2" style="max-width: 900px;">
+    <div class="color-overlay">
+        <br><br>
+        <h3 class="text-center"><strong>FAQ</strong></h3><br>
+        <div>
+            <p><strong>Apakah modul di sini cocok untuk pemula yang baru belajar catur?</strong></p>
+            <p>Sangat cocok! Kami menyediakan modul yang dikategorikan berdasarkan ELO rating, mulai dari level pemula (ELO 800–1200) hingga tingkat mahir (ELO 1600+). Kamu bisa memilih materi dasar seperti Kuasai Endgame Dasar untuk memulai.</p>
+            <p><strong>Apakah saya bisa berkonsultasi atau bertanya jika tidak paham dengan materi?</strong></p>
+            <p>Bisa. Setiap peserta kursus mendapatkan akses ke forum diskusi di dalam modul dan grup komunitas eksklusif. Kamu bisa mengajukan pertanyaan seputar taktik atau papan catur yang sedang kamu pelajari langsung kepada instruktur dan sesama peserta.</p>
+            <p><strong>Apakah materi kursus bisa diakses selamanya setelah dibeli?</strong></p>
+            <p>Ya, sekali kamu membeli modul, kamu akan mendapatkan akses seumur hidup (lifetime access). Kamu bisa menonton video pembelajaran, mengunduh file PDF repertoire, dan mengulang latihan kapan saja.</p>
+        </div>
+        <div class="mb-2">
+            <br>
+            <h3 id="contact-us" class="text-center"><strong>Hubungi Kami</strong></h3>
+            <div class="container text-start" style="max-width: 550px;">
+                <img src="../asset/alamat.png" style="max-width: 20px; max-height: 20px;">
+                <p3 class="text-center">Jl. Ir. H. Juanda No. 123, Dago, Kecamatan Coblong, Kota Bandung, Jawa Barat 40135</p3><br>
+                <img src="../asset/whatsapp.png" style="max-width: 20px; max-height: 20px;">
+                <p3 class="text-center">chat.whatsapp.com/GarudaChessAcademy</p3><br>
+                <img src="../asset/instagram.png" style="max-width: 20px; max-height: 20px;">
+                <p3 class="text-center">@garudachess.academy</p3><br>
+                <img src="../asset/jadwal2.png" style="max-width: 20px; max-height: 20px;">
+                <p3 class="text-center">Senin – Sabtu: 08.00 – 17.00 WIB</p3>
+            </div>
+        </div>
+        <div class="container shadow-lg bg-custom-body rounded p-3" style="max-width: 600px;">
+            <div>
+                <br>
+                <h4 class="text-center text-white mb-3"><strong>Tanyakan Lebih Lanjut</strong></h4>
+            </div>
+            <div class="container bg-custom-body rounded" style="max-width: 600px;">
+                <div class="input-group mb-2">
+                    <input id="contactName" type="text" class="form-control" placeholder="Nama" maxlength="100">
+                </div>
+                <div class="input-group mb-2">
+                    <input id="contactPhone" type="tel" class="form-control" placeholder="No.Handphone">
+                </div>
+                <div class="input-group mb-2">
+                    <textarea id="contactMessage" class="form-control" placeholder="Tanyakan lebih detail" rows="4" maxlength="2000"></textarea>
+                </div>
+                <p id="contactStatus" class="small mb-2"></p>
+                <button id="contactSubmit" type="button" class="btn text-start bg-dark text-white shadow">Kirim ke Whatsapp</button>
+                <br><br>
+            </div>
+        </div>
+    </div>
+    </div>
+        <div class="fixed-bottom bg-custom-dark p-0.1 text-center">
+        <p4 class="text-white"> @ 2026 Garuda Chess Academy. All rights reseverd</p4>
+    </div>
+    </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../script/contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Garuda Chess Online Course</title>
+  <link rel="stylesheet" href="../style/landing_page.css"> 
+  <!-- ini harus diedit -->
+</head>
+<body>
+    <body class="bg-custom-body bg-custom-body-image">
+    <div class="row bg-custom-dark p-3">
+        <div class="col-md-4 d-flex">
+            <img src="../asset/logo_catur.png" width="30" height="30" class="me-2 ms-2">
+            <strong class="text-white">Garuda Chess Academy</strong>
+        </div>
+        <div class="text-white col-md-8 text-end">
+            <div class="d-none d-md-block d-lg-block d-xl-block">
+                <button id="logoutBtn" type="button" class="btn btn-primary bg-custom-beige text-dark"><a href="login.html">Logout</a></button>
+            </div>
+            <div class="text-white text-end d-xs-block d-sm-block d-md-none col-md-4">
+                <div class="dropdown">
+                    <button type="button" class="btn btn-primary dropdown-toggle bg-custom-beige text-dark" data-bs-toggle="dropdown">
+                        Menu
+                    </button>
+                    <ul class="dropdown-menu">
+                        <a href="products.html" class="dropdown-item text-decoration-none"><strong><p1>Pilihan Program</p1></strong></a>
+                        <a href="choose_class.html" class="dropdown-item text-decoration-none"><strong><p1>Caritau Program Kamu</p1></strong></a>
+                        <a href="your_class.html" class="dropdown-item text-decoration-none"><strong><p1>Kelas Kamu</p1></strong></a>
+                        <a href="portofolio.html" class="dropdown-item text-decoration-none"><strong><p1>Galeri</p1></strong></a>
+                        <a href="contact_us.html" class="dropdown-item text-decoration-none"><strong><p1>Hubungi Kami</p1></strong></a>
+                        <a href="login.html" class="dropdown-item text-decoration-none"><strong><p1>Login</p1></strong></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+    <div class="col-md-2 d-none d-lg-block vh-100 bg-custom-beige p-2" style="max-width: 250px;">
+        <ul>
+            <a href="products.html" class="text-dark"><strong>Pilihan Program</strong></a> <br>
+            <a href="choose_class.html" class="text-dark"><strong>Caritau Program Kamu</strong></a> <br>
+            <a href="your_class.html" class="text-dark"><strong>Kelas Kamu</strong></a> <br>
+            <a href="portofolio.html" class="text-dark"><strong>Galeri</strong></a> <br>
+            <a href="contact_us.html" class="text-dark"><strong>Hubungi Kami</strong></a> <br>
+
+        </ul>
+    </div>
+    
+    <div class="container bg-custom-beige rounded mb-3 col-md-10 mt-2" style="max-width: 900px;">
+    <div class="color-overlay">
+        <br><br>
+        <section class="py-5 bg-light">
+            <div class="container" style="max-width: 900px;">
+                <!-- Header Section -->
+                <div class="text-center mb-5">
+                    <h3 class="fw-bold"><strong>Alumni &amp; Prestasi Lulusan</strong></h3>
+                    <p class="text-secondary lh-base">
+                        Bukti nyata kualitas pengajaran kami. Lebih dari <span class="fw-bold text-primary">5.000+ alumnus</span> telah membuktikan peningkatan ELO rating dan meraih berbagai medali di kejuaraan catur regional hingga nasional.
+                    </p>
+                </div>
+
+                <!-- Highlight Alumni Cards -->
+                <div class="row g-4 mb-5">
+                    <!-- Alumni 1 -->
+                    <div class="col-md-6">
+                        <div class="card h-100 border-0 shadow-sm p-3 rounded-3 bg-white">
+                            <div class="d-flex align-items-center mb-3">
+                                <!-- Placeholder Foto Profil -->
+                                <div class="flex-shrink-0 me-3">
+                                        <img src="../asset/orang_cowo.png" class="rounded-circle d-flex align-items-center justify-content-center text-muted fw-bold" style="width: 70px; height: 70px; font-size: 12px; text-align: center;">
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold text-dark mb-1">Richardus Henry</h5>
+                                    <span class="badge bg-custom-body mb-1">Lulusan Taktik & Kombinasi Menengah</span>
+                                    <p class="small text-muted mb-0">ELO: <strong>1100 &rarr; 1650+</strong></p>
+                                </div>
+                            </div>
+                            <p class="card-text small text-secondary fst-italic">
+                                "Sebelum ikut course, rating saya stuck di 1100. Setelah pelajari analisis partai dan taktik dari Master Nasional, kalkulasi saya jauh lebih tajam!"
+                            </p>
+                            <div class="border-top pt-2 mt-auto">
+                                <small class="fw-bold text-success">&check; Juara 1 Kejurda Catur Perorangan Bandung 2024</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Alumni 2 -->
+                    <div class="col-md-6">
+                        <div class="card h-100 border-0 shadow-sm p-3 rounded-3 bg-white">
+                            <div class="d-flex align-items-center mb-3">
+                                <!-- Placeholder Foto Profil -->
+                                <div class="flex-shrink-0 me-3">
+                                    <img src="../asset/orang_cewe.png" class="rounded-circle d-flex align-items-center justify-content-center text-muted fw-bold" style="width: 70px; height: 70px; font-size: 12px; text-align: center;">
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold text-dark mb-1">Awit Widya</h5>
+                                    <span class="badge bg-custom-body mb-1">Lulusan Strategi Posisional Mahir</span>
+                                    <p class="small text-muted mb-0">ELO: <strong>1350 &rarr; 1800+</strong></p>
+                                </div>
+                            </div>
+                            <p class="card-text small text-secondary fst-italic">
+                                "Materi babak akhir dan pembukaannya sangat terstruktur. Sangat membantu saya saat bertanding di turnamen resmi online maupun offline."
+                            </p>
+                            <div class="border-top pt-2 mt-auto">
+                                <small class="fw-bold text-success">&check; Medali Perak Turnamen Catur Mahasiswa Nasional</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section Galeri Turnamen & Sertifikat -->
+                <div class="bg-white p-4 rounded-3 shadow-sm border mb-4">
+                    <h5 class="fw-bold text-dark text-center mb-4">Momen Kemenangan Alumnus Kami</h5>
+                    
+                    <div class="row g-3">
+                        <!-- Placeholder Foto 1 -->
+                        <div class="col-md-4 col-6">
+                            <img src="../asset/sekolah_catur2.jpeg" class="bg-light border rounded-3 d-flex align-items-center justify-content-center text-center text-muted p-4" style="height: 150px; border-style: dashed !important;">
+                            </img>
+                        </div>
+                        <!-- Placeholder Foto 2 -->
+                        <div class="col-md-4 col-6">
+                            <img src="../asset/sekolah_catur2.jpeg" class="bg-light border rounded-3 d-flex align-items-center justify-content-center text-center text-muted p-4" style="height: 150px; border-style: dashed !important;">
+                            </img>
+                        </div>
+                        <!-- Placeholder Foto 3 -->
+                        <div class="col-md-4 col-12">
+                            <img src="../asset/sekolah_catur2.jpeg" class="bg-light border rounded-3 d-flex align-items-center justify-content-center text-center text-muted p-4" style="height: 150px; border-style: dashed !important;">
+                            </img>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ringkasan Statistik Lulusan -->
+                <div class="row text-center border-top pt-4">
+                    <div class="col-4">
+                        <h3 class="fw-bold text-primary mb-0">5.000+</h3>
+                        <small class="text-secondary">Siswa Terdaftar</small>
+                    </div>
+                    <div class="col-4">
+                        <h3 class="fw-bold text-primary mb-0">300+</h3>
+                        <small class="text-secondary">Peningkatan ELO Rata-rata</small>
+                    </div>
+                    <div class="col-4">
+                        <h3 class="fw-bold text-primary mb-0">50+</h3>
+                        <small class="text-secondary">Medali Turnamen Raihan Alumni</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    </div>
+    <div class="fixed-bottom bg-custom-dark p-0.1 text-center">
+        <p4 class="text-white"> @ 2026 Garuda Chess Academy. All rights reseverd</p4>
+    </div>
+    </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
